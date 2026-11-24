@@ -1,0 +1,29 @@
+# Python environment
+venv/
+.venv/
+__pycache__/
+*.py[cod]
+
+# API keys and secrets
+.env
+.env.*
+!.env.example
+.streamlit/secrets.toml
+
+# Local databases and personal data
+*.db
+*.sqlite
+*.sqlite3
+
+# Backups
+app_backup.py
+app_before_*.py
+app-3.py
+app_upgrade2.py
+app_before_upgrade2.py
+app_before_final_fix.py
+NEXUS_Project_Phantom.py
+NEXUS_Hybrid_Personal_OS.py
+
+# OS files
+.DS_Store
